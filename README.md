@@ -100,9 +100,6 @@ The case prints in three parts (`top.stl`, `middle.stl`, `bottom.stl`).
 `case.3mf` is the source file containing all parts together — open it in
 your slicer if you'd like to print the set in one job.
 
-Standard FDM settings work fine; no supports required for the included
-orientation.
-
 <p>
   <img src="pictures/side.jpg"   alt="Case, side view"   width="48%">
   <img src="pictures/bottom.jpg" alt="Case, bottom view" width="48%">
@@ -118,8 +115,14 @@ schematic — without that write-up this adapter would not exist. Thank you!
 
 ## License
 
-Hardware design files released under a permissive license — see
-`LICENSE` (TBD).
+This project is licensed under the **Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International License**
+([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
+
+You are free to share and adapt the design for **non-commercial** purposes,
+provided you give credit and release your contributions under the same
+license. Commercial use is not permitted without prior written permission.
+See [`LICENSE`](LICENSE) for the full text.
 
 The PJ-320A library submodule is © its respective authors and used under
 the terms of its own repository.
