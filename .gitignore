@@ -7,25 +7,26 @@ _autosave-*
 *-backups/
 fp-info-cache
 
-# Generated manufacturing output (regenerate from .kicad_pcb)
-gerber/
-gerber*/
-drill/
-*.gbr
-*.gbl
-*.gtl
-*.gbs
-*.gts
-*.gbo
-*.gto
-*.gbp
-*.gtp
-*.gm1
-*.drl
+# Generated manufacturing output from KiCad (regenerate from .kicad_pcb)
+# Scoped to pcb/ so case/ design files are not affected
+pcb/gerber/
+pcb/gerber*/
+pcb/drill/
+pcb/*.gbr
+pcb/*.gbl
+pcb/*.gtl
+pcb/*.gbs
+pcb/*.gts
+pcb/*.gbo
+pcb/*.gto
+pcb/*.gbp
+pcb/*.gtp
+pcb/*.gm1
+pcb/*.drl
 
-# 3D exports (regenerate from .kicad_pcb)
-*.step
-*.stl
+# KiCad's auto-generated 3D board export (regenerate from .kicad_pcb)
+pcb/*.step
+pcb/*.stl
 
 # OS junk
 .DS_Store
