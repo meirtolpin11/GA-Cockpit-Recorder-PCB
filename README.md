@@ -88,16 +88,22 @@ needed. If you already have a `PJ-320A` / `PJ-320A_Library` entry in your
 global tables you may see a duplicate-nickname warning — the project-local
 entry is the one that resolves correctly for this project.
 
-## Generating gerbers
+## Ordering the PCB
 
-Gerbers are not committed (the design is the source of truth). To produce
-manufacturing files:
+The board has been successfully manufactured by [JLCPCB](https://jlcpcb.com/)
+and that is the recommended way to get one made — it's inexpensive, the
+turnaround is fast, and the default 1.6 mm FR-4 stack-up works well for
+this design.
 
-1. Open the PCB in KiCad.
-2. **File → Fabrication Outputs → Gerbers** — use your fab house's preset
-   (e.g. JLCPCB, PCBWay) or the KiCad defaults.
+Gerbers are not committed to the repo (the KiCad design is the source of
+truth). To produce manufacturing files yourself:
+
+1. Open `pcb/Recorder-TRS+TRRS.kicad_pcb` in KiCad.
+2. **File → Fabrication Outputs → Gerbers** — use the JLCPCB preset or
+   the KiCad defaults.
 3. **File → Fabrication Outputs → Drill Files** — Excellon, PTH + NPTH.
-4. Zip the resulting folder and upload to your fab.
+4. Zip the resulting folder and upload it to
+   [jlcpcb.com](https://jlcpcb.com/) (or another fab of your choice).
 
 ![Assembled PCB](pictures/assembled_pcb.jpg)
 
