@@ -41,6 +41,13 @@ Example of the PL-to-TRS cable that feeds the adapter:
 | Input  | ![Input](pictures/input.jpg) | TRS jack — connect the PL-to-TRS cable from the PL splitter here. |
 | Output | ![Output](pictures/phone_and_camera_output.jpg) | TRS + TRRS jacks — connect a phone, action camera, or recorder. |
 
+## Schematic
+
+![Schematic](pictures/schema.png)
+
+The full editable KiCad schematic is in
+[`pcb/Recorder-TRS+TRRS.kicad_sch`](pcb/Recorder-TRS+TRRS.kicad_sch).
+
 ## Repository layout
 
 ```
