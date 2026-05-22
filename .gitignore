@@ -1,0 +1,31 @@
+# KiCad per-user local prefs and autosaves
+*.kicad_prl
+_autosave-*
+~*.lck
+
+# KiCad backups and caches
+*-backups/
+fp-info-cache
+
+# Generated manufacturing output (regenerate from .kicad_pcb)
+gerber/
+gerber*/
+drill/
+*.gbr
+*.gbl
+*.gtl
+*.gbs
+*.gts
+*.gbo
+*.gto
+*.gbp
+*.gtp
+*.gm1
+*.drl
+
+# 3D exports (regenerate from .kicad_pcb)
+*.step
+*.stl
+
+# OS junk
+.DS_Store

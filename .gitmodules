@@ -1,0 +1,3 @@
+[submodule "PJ-320A_KiCad_Library"]
+	path = pcb/PJ-320A_KiCad_Library
+	url = https://github.com/nathanhborger/PJ-320A_KiCad_Library.git

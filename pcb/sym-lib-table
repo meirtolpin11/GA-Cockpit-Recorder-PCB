@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "PJ-320A")(type "KiCad")(uri "${KIPRJMOD}/PJ-320A.kicad_sym")(options "")(descr "PJ-320A 3.5mm audio jack symbol"))
+)
